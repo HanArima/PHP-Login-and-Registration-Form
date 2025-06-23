@@ -48,40 +48,9 @@ Click New, name the database (e.g., user_details)
 
 Import the included registered_users.sql file (if available)
 
-Or create a table using this SQL:
-
-CREATE TABLE registered_users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
-    country VARCHAR(50),
-    phone VARCHAR(15)
-);
 Run the Application
 Open your browser and visit:
 http://localhost/registration-login-system-php/Registration System/registration.php
-
-#### Folder Structure
-
-registration-login-system-php/
-│
-├── Registration System/
-│   ├── registration.php
-│   ├── config.php
-│
-├── Login System/
-│   ├── login_page.php
-│   ├── authentication.php
-│   ├── dashboard.php
-│   ├── logout.php
-│
-├── css/
-│   └── style.css
-│
-├── images/
-│   └── intellipaat_logo.png
 
 #### Features
 Secure password storage using password_hash()
