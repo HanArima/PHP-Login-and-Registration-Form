@@ -31,7 +31,7 @@ Before you begin, make sure you have the following installed on your system:
    `http://localhost/phpmyadmin`  
    This opens the MySQL interface.
 
-## 📦 Installation Steps
+## Installation Steps
 
 1. **Download or Clone this Repository**
    ```bash
@@ -63,7 +63,7 @@ Example path: C:\xampp\htdocs\registration-login-system-php
 Open your browser and visit:
 http://localhost/registration-login-system-php/Registration System/registration.php
 
-#### Features
+## Features
 Secure password storage using password_hash()
 
 Input validation with error handling
@@ -74,8 +74,8 @@ Session management with $_SESSION
 
 Clean and responsive UI using CSS
 
-#### Contributing
+## Contributing
 Feel free to fork this repo, make changes, and create a pull request. Contributions are welcome!
 
-#### License
+## License
 This project is open-source and available under the MIT License.
